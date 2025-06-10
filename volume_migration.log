@@ -1,0 +1,2404 @@
+2025-04-23 17:28:36,635 - INFO - Preparing to move 1 volumes to node aggr1_n04
+2025-04-23 17:28:36,635 - INFO - Configuration:
+2025-04-23 17:28:36,635 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 17:28:36,635 - INFO -   - Destination node: aggr1_n04
+2025-04-23 17:28:36,635 - INFO -   - Max concurrent moves: 4
+2025-04-23 17:28:36,635 - INFO -   - Cutover action: retry
+2025-04-23 17:28:36,635 - INFO -   - Cutover window: 30 seconds
+2025-04-23 17:28:36,635 - INFO -   - Timeout: 86400 seconds
+2025-04-23 17:28:36,803 - WARNING - Retrying (LoggingRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:28:36,857 - WARNING - Retrying (LoggingRetry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:28:36,915 - WARNING - Retrying (LoggingRetry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:28:36,975 - WARNING - Retrying (LoggingRetry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:28:37,023 - WARNING - Retrying (LoggingRetry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:28:37,073 - CRITICAL - Fatal error: name 'NetAppApiError' is not defined
+2025-04-23 17:30:55,833 - INFO - Preparing to move 1 volumes to node aggr1_n04
+2025-04-23 17:30:55,834 - INFO - Configuration:
+2025-04-23 17:30:55,834 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 17:30:55,834 - INFO -   - Destination node: aggr1_n04
+2025-04-23 17:30:55,834 - INFO -   - Max concurrent moves: 4
+2025-04-23 17:30:55,834 - INFO -   - Cutover action: retry
+2025-04-23 17:30:55,834 - INFO -   - Cutover window: 30 seconds
+2025-04-23 17:30:55,834 - INFO -   - Timeout: 86400 seconds
+2025-04-23 17:30:55,890 - WARNING - Retrying (LoggingRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:30:55,976 - WARNING - Retrying (LoggingRetry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:30:56,025 - WARNING - Retrying (LoggingRetry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:30:56,166 - WARNING - Retrying (LoggingRetry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:30:56,221 - WARNING - Retrying (LoggingRetry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 17:30:56,267 - ERROR - API Error checking node aggr1_n04 status: Caused by SSLError(MaxRetryError("HTTPSConnectionPool(host='svlngen4-c04-san', port=443): Max retries exceeded with url: /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))"))
+2025-04-23 17:30:56,268 - ERROR - Destination node aggr1_n04 is not healthy or available. Aborting all moves.
+2025-04-23 17:30:56,268 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 20:52:38,085 - INFO - Preparing to move 1 volumes to node aggr1_n04
+2025-04-23 20:52:38,085 - INFO - Configuration:
+2025-04-23 20:52:38,086 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 20:52:38,086 - INFO -   - Destination node: aggr1_n04
+2025-04-23 20:52:38,086 - INFO -   - Max concurrent moves: 4
+2025-04-23 20:52:38,086 - INFO -   - Cutover action: retry
+2025-04-23 20:52:38,086 - INFO -   - Cutover window: 30 seconds
+2025-04-23 20:52:38,086 - INFO -   - Timeout: 86400 seconds
+2025-04-23 20:52:38,086 - CRITICAL - Fatal error: 'VolumeMove' object has no attribute '_establish_connection'
+2025-04-23 21:02:26,089 - INFO - Preparing to move 1 volumes to node aggr1_n04
+2025-04-23 21:02:26,089 - INFO - Configuration:
+2025-04-23 21:02:26,089 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:02:26,089 - INFO -   - Destination node: aggr1_n04
+2025-04-23 21:02:26,089 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:02:26,089 - INFO -   - Cutover action: retry
+2025-04-23 21:02:26,089 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:02:26,089 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:02:26,215 - WARNING - Retrying (LoggingRetry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 21:02:26,268 - WARNING - Retrying (LoggingRetry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 21:02:26,353 - WARNING - Retrying (LoggingRetry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 21:02:26,419 - WARNING - Retrying (LoggingRetry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 21:02:26,488 - WARNING - Retrying (LoggingRetry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)'))': /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04
+2025-04-23 21:02:26,559 - ERROR - API Error checking node/aggregate aggr1_n04 status: Caused by SSLError(MaxRetryError("HTTPSConnectionPool(host='svlngen4-c04-san', port=443): Max retries exceeded with url: /api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)')))"))
+2025-04-23 21:02:26,559 - ERROR - Destination node aggr1_n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:02:26,559 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:10:27,751 - INFO - Preparing to move 1 volumes to node aggr1_n04
+2025-04-23 21:10:27,751 - INFO - Configuration:
+2025-04-23 21:10:27,751 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:10:27,751 - INFO -   - Destination node: aggr1_n04
+2025-04-23 21:10:27,751 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:10:27,752 - INFO -   - Cutover action: retry
+2025-04-23 21:10:27,752 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:10:27,752 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:10:31,854 - ERROR - API Error checking node/aggregate aggr1_n04 status: Caused by HTTPError('401 Client Error: Unauthorized for url: https://svlngen4-c04-san:443/api/cluster/nodes?fields=name%2Cstate%2Chealth&name=aggr1_n04'): User is not authorized.
+2025-04-23 21:10:31,855 - ERROR - Destination node aggr1_n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:10:31,855 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:15:00,979 - INFO - Preparing to move 1 volumes to node svlngen4-c04-san-n04
+2025-04-23 21:15:00,979 - INFO - Configuration:
+2025-04-23 21:15:00,979 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:15:00,979 - INFO -   - Destination node: svlngen4-c04-san-n04
+2025-04-23 21:15:00,979 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:15:00,979 - INFO -   - Cutover action: retry
+2025-04-23 21:15:00,979 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:15:00,979 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:15:05,079 - ERROR - API Error checking node/aggregate svlngen4-c04-san-n04 status: Caused by HTTPError('401 Client Error: Unauthorized for url: https://svlngen4-c04-san:443/api/cluster/nodes?fields=name%2Cstate%2Chealth&name=svlngen4-c04-san-n04'): User is not authorized.
+2025-04-23 21:15:05,080 - ERROR - Destination node svlngen4-c04-san-n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:15:05,080 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:15:22,724 - INFO - Preparing to move 1 volumes to node svlngen4-c04-san-n04
+2025-04-23 21:15:22,724 - INFO - Configuration:
+2025-04-23 21:15:22,724 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:15:22,724 - INFO -   - Destination node: svlngen4-c04-san-n04
+2025-04-23 21:15:22,724 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:15:22,724 - INFO -   - Cutover action: retry
+2025-04-23 21:15:22,724 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:15:22,724 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:15:26,911 - ERROR - API Error checking node/aggregate svlngen4-c04-san-n04 status: Caused by HTTPError('401 Client Error: Unauthorized for url: https://svlngen4-c04-san:443/api/cluster/nodes?fields=name%2Cstate%2Chealth&name=svlngen4-c04-san-n04'): User is not authorized.
+2025-04-23 21:15:26,911 - ERROR - Destination node svlngen4-c04-san-n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:15:26,912 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:17:04,619 - INFO - Preparing to move 1 volumes to node svlngen4-c04-san-n04
+2025-04-23 21:17:04,619 - INFO - Configuration:
+2025-04-23 21:17:04,619 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:17:04,619 - INFO -   - Destination node: svlngen4-c04-san-n04
+2025-04-23 21:17:04,619 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:17:04,619 - INFO -   - Cutover action: retry
+2025-04-23 21:17:04,619 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:17:04,619 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:17:08,718 - ERROR - API Error checking node/aggregate svlngen4-c04-san-n04 status: Caused by HTTPError('401 Client Error: Unauthorized for url: https://svlngen4-c04-san:443/api/cluster/nodes?fields=name%2Cstate%2Chealth&name=svlngen4-c04-san-n04'): User is not authorized.
+2025-04-23 21:17:08,718 - ERROR - Destination node svlngen4-c04-san-n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:17:08,718 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:21:34,491 - INFO - Preparing to move 1 volumes to node svlngen4-c04-san-n04
+2025-04-23 21:21:34,491 - INFO - Configuration:
+2025-04-23 21:21:34,491 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:21:34,491 - INFO -   - Destination node: svlngen4-c04-san-n04
+2025-04-23 21:21:34,491 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:21:34,491 - INFO -   - Cutover action: retry
+2025-04-23 21:21:34,491 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:21:34,491 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:21:34,601 - ERROR - API Error checking node/aggregate svlngen4-c04-san-n04 status: Caused by HTTPError('400 Client Error: Bad Request for url: https://svlngen4-c04-san:443/api/cluster/nodes?fields=name%2Cstate%2Chealth&name=svlngen4-c04-san-n04'): The value "health" is invalid for field "fields" (<field,...>)
+2025-04-23 21:21:34,601 - ERROR - Destination node svlngen4-c04-san-n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:21:34,602 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:21:46,521 - INFO - Preparing to move 1 volumes to node svlngen4-c04-san-n04
+2025-04-23 21:21:46,522 - INFO - Configuration:
+2025-04-23 21:21:46,522 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:21:46,522 - INFO -   - Destination node: svlngen4-c04-san-n04
+2025-04-23 21:21:46,522 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:21:46,522 - INFO -   - Cutover action: retry
+2025-04-23 21:21:46,522 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:21:46,522 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:21:46,613 - ERROR - API Error checking node/aggregate svlngen4-c04-san-n04 status: Caused by HTTPError('400 Client Error: Bad Request for url: https://svlngen4-c04-san:443/api/cluster/nodes?fields=name%2Cstate%2Chealth&name=svlngen4-c04-san-n04'): The value "health" is invalid for field "fields" (<field,...>)
+2025-04-23 21:21:46,613 - ERROR - Destination node svlngen4-c04-san-n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:21:46,613 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:26:55,459 - INFO - Preparing to move 1 volumes to node svlngen4-c04-san-n04
+2025-04-23 21:26:55,460 - INFO - Configuration:
+2025-04-23 21:26:55,460 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:26:55,460 - INFO -   - Destination node: svlngen4-c04-san-n04
+2025-04-23 21:26:55,460 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:26:55,460 - INFO -   - Cutover action: retry
+2025-04-23 21:26:55,460 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:26:55,460 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:26:55,554 - ERROR - API Error checking node/aggregate svlngen4-c04-san-n04 status: Caused by HTTPError('400 Client Error: Bad Request for url: https://svlngen4-c04-san:443/api/cluster/nodes?fields=name%2Chealth&name=svlngen4-c04-san-n04'): The value "health" is invalid for field "fields" (<field,...>)
+2025-04-23 21:26:55,554 - ERROR - Destination node svlngen4-c04-san-n04 is not healthy or available. Aborting all moves.
+2025-04-23 21:26:55,554 - ERROR - Use --ignore-health-check to bypass this check.
+2025-04-23 21:44:04,191 - INFO - Preparing to move 1 volumes to aggregate aggr1-n04
+2025-04-23 21:44:04,191 - INFO - Configuration:
+2025-04-23 21:44:04,191 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:44:04,191 - INFO -   - Destination aggregate: aggr1-n04
+2025-04-23 21:44:04,191 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:44:04,191 - INFO -   - Cutover action: retry
+2025-04-23 21:44:04,191 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:44:04,191 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:44:04,191 - INFO - Checking status of destination aggregate: aggr1-n04
+2025-04-23 21:44:04,191 - INFO - Starting migration of 1 volumes to aggregate aggr1-n04
+2025-04-23 21:44:04,192 - INFO - Starting move for volume source to aggregate aggr1-n04
+2025-04-23 21:44:04,192 - INFO - Started migration for volume source (1/1)
+2025-04-23 21:44:04,348 - INFO - Checking status of destination aggregate: aggr1-n04
+2025-04-23 21:44:04,542 - ERROR - Error starting volume move for source: 'Volume' object has no attribute 'move'
+2025-04-23 21:44:04,543 - ERROR - Failed to initiate move for volume source: 'Volume' object has no attribute 'move'
+2025-04-23 21:44:05,195 - ERROR - ✗ Volume source migration failed
+2025-04-23 21:44:06,201 - INFO - ======================================================================
+2025-04-23 21:44:06,202 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-23 21:44:06,202 - INFO - ======================================================================
+2025-04-23 21:44:06,202 - INFO - Total volumes processed: 1
+2025-04-23 21:44:06,203 - INFO - Successfully moved: 0
+2025-04-23 21:44:06,203 - INFO - Failed to move: 1
+2025-04-23 21:44:06,203 - INFO - Failed volumes:
+2025-04-23 21:44:06,204 - INFO -   - source
+2025-04-23 21:44:06,204 - INFO - Total duration: 00:00:02
+2025-04-23 21:44:06,204 - INFO - Average time per volume: 0.03 minutes
+2025-04-23 21:44:06,205 - INFO - ======================================================================
+2025-04-23 21:44:32,794 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-23 21:44:32,794 - INFO - Configuration:
+2025-04-23 21:44:32,794 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 21:44:32,794 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-23 21:44:32,794 - INFO -   - Max concurrent moves: 4
+2025-04-23 21:44:32,794 - INFO -   - Cutover action: retry
+2025-04-23 21:44:32,794 - INFO -   - Cutover window: 30 seconds
+2025-04-23 21:44:32,794 - INFO -   - Timeout: 86400 seconds
+2025-04-23 21:44:32,794 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-23 21:44:32,794 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-23 21:44:32,794 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-23 21:44:32,794 - INFO - Started migration for volume source (1/1)
+2025-04-23 21:44:32,920 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-23 21:44:33,059 - ERROR - Error starting volume move for source: 'Volume' object has no attribute 'move'
+2025-04-23 21:44:33,059 - ERROR - Failed to initiate move for volume source: 'Volume' object has no attribute 'move'
+2025-04-23 21:44:33,800 - ERROR - ✗ Volume source migration failed
+2025-04-23 21:44:34,806 - INFO - ======================================================================
+2025-04-23 21:44:34,807 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-23 21:44:34,808 - INFO - ======================================================================
+2025-04-23 21:44:34,808 - INFO - Total volumes processed: 1
+2025-04-23 21:44:34,808 - INFO - Successfully moved: 0
+2025-04-23 21:44:34,809 - INFO - Failed to move: 1
+2025-04-23 21:44:34,809 - INFO - Failed volumes:
+2025-04-23 21:44:34,809 - INFO -   - source
+2025-04-23 21:44:34,809 - INFO - Total duration: 00:00:02
+2025-04-23 21:44:34,809 - INFO - Average time per volume: 0.03 minutes
+2025-04-23 21:44:34,810 - INFO - ======================================================================
+2025-04-23 22:03:14,329 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-23 22:03:14,330 - INFO - Configuration:
+2025-04-23 22:03:14,330 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 22:03:14,330 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-23 22:03:14,330 - INFO -   - Max concurrent moves: 4
+2025-04-23 22:03:14,330 - INFO -   - Cutover action: retry
+2025-04-23 22:03:14,330 - INFO -   - Cutover window: 30 seconds
+2025-04-23 22:03:14,330 - INFO -   - Timeout: 86400 seconds
+2025-04-23 22:03:14,330 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-23 22:03:14,330 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-23 22:03:14,330 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-23 22:03:14,330 - INFO - Started migration for volume source (1/1)
+2025-04-23 22:03:14,476 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-23 22:03:14,634 - ERROR - Error starting volume move for source: 'Volume' object has no attribute 'move'
+2025-04-23 22:03:14,635 - ERROR - Failed to initiate move for volume source: 'Volume' object has no attribute 'move'
+2025-04-23 22:03:15,335 - ERROR - ✗ Volume source migration failed
+2025-04-23 22:03:16,341 - INFO - ======================================================================
+2025-04-23 22:03:16,342 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-23 22:03:16,342 - INFO - ======================================================================
+2025-04-23 22:03:16,342 - INFO - Total volumes processed: 1
+2025-04-23 22:03:16,343 - INFO - Successfully moved: 0
+2025-04-23 22:03:16,343 - INFO - Failed to move: 1
+2025-04-23 22:03:16,343 - INFO - Failed volumes:
+2025-04-23 22:03:16,343 - INFO -   - source
+2025-04-23 22:03:16,343 - INFO - Total duration: 00:00:02
+2025-04-23 22:03:16,344 - INFO - Average time per volume: 0.03 minutes
+2025-04-23 22:03:16,344 - INFO - ======================================================================
+2025-04-23 22:04:20,318 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-23 22:04:20,319 - INFO - Configuration:
+2025-04-23 22:04:20,319 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-23 22:04:20,319 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-23 22:04:20,319 - INFO -   - Max concurrent moves: 4
+2025-04-23 22:04:20,319 - INFO -   - Cutover action: retry
+2025-04-23 22:04:20,319 - INFO -   - Cutover window: 30 seconds
+2025-04-23 22:04:20,319 - INFO -   - Timeout: 86400 seconds
+2025-04-23 22:04:20,319 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-23 22:04:20,319 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-23 22:04:20,319 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-23 22:04:20,319 - INFO - Started migration for volume source (1/1)
+2025-04-23 22:04:20,444 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-23 22:04:20,674 - ERROR - Error starting volume move for source: 'Volume' object has no attribute 'move'
+2025-04-23 22:04:20,674 - ERROR - Failed to initiate move for volume source: 'Volume' object has no attribute 'move'
+2025-04-23 22:04:21,325 - ERROR - ✗ Volume source migration failed
+2025-04-23 22:04:22,329 - INFO - ======================================================================
+2025-04-23 22:04:22,330 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-23 22:04:22,330 - INFO - ======================================================================
+2025-04-23 22:04:22,330 - INFO - Total volumes processed: 1
+2025-04-23 22:04:22,330 - INFO - Successfully moved: 0
+2025-04-23 22:04:22,330 - INFO - Failed to move: 1
+2025-04-23 22:04:22,330 - INFO - Failed volumes:
+2025-04-23 22:04:22,330 - INFO -   - source
+2025-04-23 22:04:22,331 - INFO - Total duration: 00:00:02
+2025-04-23 22:04:22,331 - INFO - Average time per volume: 0.03 minutes
+2025-04-23 22:04:22,331 - INFO - ======================================================================
+2025-04-28 13:29:10,124 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-28 13:29:10,124 - INFO - Configuration:
+2025-04-28 13:29:10,124 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-28 13:29:10,124 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-28 13:29:10,124 - INFO -   - Max concurrent moves: 4
+2025-04-28 13:29:10,124 - INFO -   - Cutover action: retry
+2025-04-28 13:29:10,124 - INFO -   - Cutover window: 30 seconds
+2025-04-28 13:29:10,124 - INFO -   - Timeout: 86400 seconds
+2025-04-28 13:29:10,124 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 13:29:10,124 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-28 13:29:10,124 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-28 13:29:10,124 - INFO - Started migration for volume source (1/1)
+2025-04-28 13:29:10,318 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 13:29:10,556 - ERROR - Error starting volume move for source: 'Volume' object has no attribute 'move'
+2025-04-28 13:29:10,557 - ERROR - Failed to initiate move for volume source: 'Volume' object has no attribute 'move'
+2025-04-28 13:29:11,126 - ERROR - ✗ Volume source migration failed
+2025-04-28 13:29:12,131 - INFO - ======================================================================
+2025-04-28 13:29:12,132 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-28 13:29:12,132 - INFO - ======================================================================
+2025-04-28 13:29:12,132 - INFO - Total volumes processed: 1
+2025-04-28 13:29:12,132 - INFO - Successfully moved: 0
+2025-04-28 13:29:12,133 - INFO - Failed to move: 1
+2025-04-28 13:29:12,133 - INFO - Failed volumes:
+2025-04-28 13:29:12,133 - INFO -   - source
+2025-04-28 13:29:12,133 - INFO - Total duration: 00:00:02
+2025-04-28 13:29:12,133 - INFO - Average time per volume: 0.03 minutes
+2025-04-28 13:29:12,134 - INFO - ======================================================================
+2025-04-28 13:46:08,528 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-28 13:46:08,529 - INFO - Configuration:
+2025-04-28 13:46:08,529 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-28 13:46:08,529 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-28 13:46:08,529 - INFO -   - Max concurrent moves: 4
+2025-04-28 13:46:08,529 - INFO -   - Cutover action: retry
+2025-04-28 13:46:08,529 - INFO -   - Cutover window: 30 seconds
+2025-04-28 13:46:08,529 - INFO -   - Timeout: 86400 seconds
+2025-04-28 13:46:08,529 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 13:46:08,529 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-28 13:46:08,529 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-28 13:46:08,529 - INFO - Started migration for volume source (1/1)
+2025-04-28 13:46:08,657 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 13:46:08,883 - ERROR - Error starting volume move for source: 'Volume' object has no attribute 'move'
+2025-04-28 13:46:08,883 - ERROR - Failed to initiate move for volume source: 'Volume' object has no attribute 'move'
+2025-04-28 13:46:09,535 - ERROR - ✗ Volume source migration failed
+2025-04-28 13:46:10,541 - INFO - ======================================================================
+2025-04-28 13:46:10,542 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-28 13:46:10,542 - INFO - ======================================================================
+2025-04-28 13:46:10,543 - INFO - Total volumes processed: 1
+2025-04-28 13:46:10,543 - INFO - Successfully moved: 0
+2025-04-28 13:46:10,543 - INFO - Failed to move: 1
+2025-04-28 13:46:10,543 - INFO - Failed volumes:
+2025-04-28 13:46:10,544 - INFO -   - source
+2025-04-28 13:46:10,545 - INFO - Total duration: 00:00:02
+2025-04-28 13:46:10,545 - INFO - Average time per volume: 0.03 minutes
+2025-04-28 13:46:10,545 - INFO - ======================================================================
+2025-04-28 13:49:14,180 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-28 13:49:14,180 - INFO - Configuration:
+2025-04-28 13:49:14,180 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-28 13:49:14,180 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-28 13:49:14,180 - INFO -   - Max concurrent moves: 4
+2025-04-28 13:49:14,180 - INFO -   - Cutover action: retry
+2025-04-28 13:49:14,180 - INFO -   - Cutover window: 30 seconds
+2025-04-28 13:49:14,180 - INFO -   - Timeout: 86400 seconds
+2025-04-28 13:49:14,180 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 13:49:14,180 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-28 13:49:14,180 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-28 13:49:14,181 - INFO - Started migration for volume source (1/1)
+2025-04-28 13:49:14,357 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 13:49:14,491 - ERROR - Error starting volume move for source: 'Volume' object has no attribute 'move'
+2025-04-28 13:49:14,491 - ERROR - Failed to initiate move for volume source: 'Volume' object has no attribute 'move'
+2025-04-28 13:49:15,187 - ERROR - ✗ Volume source migration failed
+2025-04-28 13:49:16,193 - INFO - ======================================================================
+2025-04-28 13:49:16,194 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-28 13:49:16,195 - INFO - ======================================================================
+2025-04-28 13:49:16,195 - INFO - Total volumes processed: 1
+2025-04-28 13:49:16,195 - INFO - Successfully moved: 0
+2025-04-28 13:49:16,196 - INFO - Failed to move: 1
+2025-04-28 13:49:16,196 - INFO - Failed volumes:
+2025-04-28 13:49:16,196 - INFO -   - source
+2025-04-28 13:49:16,196 - INFO - Total duration: 00:00:02
+2025-04-28 13:49:16,197 - INFO - Average time per volume: 0.03 minutes
+2025-04-28 13:49:16,197 - INFO - ======================================================================
+2025-04-28 15:09:42,885 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-28 15:09:42,885 - INFO - Configuration:
+2025-04-28 15:09:42,885 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-28 15:09:42,885 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-28 15:09:42,885 - INFO -   - Max concurrent moves: 4
+2025-04-28 15:09:42,885 - INFO -   - Cutover action: retry
+2025-04-28 15:09:42,885 - INFO -   - Cutover window: 30 seconds
+2025-04-28 15:09:42,885 - INFO -   - Timeout: 86400 seconds
+2025-04-28 15:09:42,885 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 15:09:42,885 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-28 15:09:42,885 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-28 15:09:42,885 - INFO - Started migration for volume source (1/1)
+2025-04-28 15:09:42,885 - CRITICAL - Fatal error: 'VolumeMove' object has no attribute 'initiate_volume_move'
+2025-04-28 15:11:02,265 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-28 15:11:02,265 - INFO - Configuration:
+2025-04-28 15:11:02,265 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-28 15:11:02,265 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-28 15:11:02,265 - INFO -   - Max concurrent moves: 4
+2025-04-28 15:11:02,265 - INFO -   - Cutover action: retry
+2025-04-28 15:11:02,265 - INFO -   - Cutover window: 30 seconds
+2025-04-28 15:11:02,265 - INFO -   - Timeout: 86400 seconds
+2025-04-28 15:11:02,265 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-28 15:11:02,265 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-28 15:11:02,265 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-28 15:11:02,265 - INFO - Started migration for volume source (1/1)
+2025-04-28 15:11:31,379 - ERROR - CLI Error starting volume move for source: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-04-28 15:11:31,380 - ERROR - Failed to initiate move for volume source: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-04-28 15:11:32,366 - ERROR - ✗ Volume source migration failed
+2025-04-28 15:11:33,371 - INFO - ======================================================================
+2025-04-28 15:11:33,372 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-28 15:11:33,373 - INFO - ======================================================================
+2025-04-28 15:11:33,373 - INFO - Total volumes processed: 1
+2025-04-28 15:11:33,374 - INFO - Successfully moved: 0
+2025-04-28 15:11:33,375 - INFO - Failed to move: 1
+2025-04-28 15:11:33,375 - INFO - Failed volumes:
+2025-04-28 15:11:33,376 - INFO -   - source
+2025-04-28 15:11:33,376 - INFO - Total duration: 00:00:31
+2025-04-28 15:11:33,376 - INFO - Average time per volume: 0.52 minutes
+2025-04-28 15:11:33,376 - INFO - ======================================================================
+2025-04-30 09:21:44,343 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-30 09:21:44,343 - INFO - Configuration:
+2025-04-30 09:21:44,343 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-30 09:21:44,343 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-30 09:21:44,343 - INFO -   - Max concurrent moves: 4
+2025-04-30 09:21:44,343 - INFO -   - Cutover action: retry
+2025-04-30 09:21:44,343 - INFO -   - Cutover window: 30 seconds
+2025-04-30 09:21:44,343 - INFO -   - Timeout: 86400 seconds
+2025-04-30 09:21:44,343 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-30 09:21:44,343 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-30 09:21:44,343 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-30 09:21:44,344 - INFO - Started migration for volume source (1/1)
+2025-04-30 09:22:00,760 - ERROR - CLI Error starting volume move for source: 
+2025-04-30 09:22:00,762 - ERROR - Failed to initiate move for volume source: 
+2025-04-30 09:22:01,410 - ERROR - ✗ Volume source migration failed
+2025-04-30 09:22:02,417 - INFO - ======================================================================
+2025-04-30 09:22:02,417 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-30 09:22:02,418 - INFO - ======================================================================
+2025-04-30 09:22:02,419 - INFO - Total volumes processed: 1
+2025-04-30 09:22:02,419 - INFO - Successfully moved: 0
+2025-04-30 09:22:02,419 - INFO - Failed to move: 1
+2025-04-30 09:22:02,420 - INFO - Failed volumes:
+2025-04-30 09:22:02,420 - INFO -   - source
+2025-04-30 09:22:02,420 - INFO - Total duration: 00:00:18
+2025-04-30 09:22:02,421 - INFO - Average time per volume: 0.30 minutes
+2025-04-30 09:22:02,421 - INFO - ======================================================================
+2025-04-30 18:22:51,146 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-30 18:22:51,146 - INFO - Configuration:
+2025-04-30 18:22:51,146 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-30 18:22:51,146 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-30 18:22:51,146 - INFO -   - Max concurrent moves: 4
+2025-04-30 18:22:51,146 - INFO -   - Cutover action: retry
+2025-04-30 18:22:51,146 - INFO -   - Cutover window: 30 seconds
+2025-04-30 18:22:51,146 - INFO -   - Timeout: 86400 seconds
+2025-04-30 18:22:51,146 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-30 18:22:51,146 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-30 18:22:51,146 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-30 18:22:51,146 - INFO - Started migration for volume source (1/1)
+2025-04-30 18:22:59,295 - ERROR - CLI Error starting volume move for source: 
+2025-04-30 18:22:59,296 - ERROR - Failed to initiate move for volume source: 
+2025-04-30 18:23:00,174 - ERROR - ✗ Volume source migration failed
+2025-04-30 18:23:01,180 - INFO - ======================================================================
+2025-04-30 18:23:01,181 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-30 18:23:01,182 - INFO - ======================================================================
+2025-04-30 18:23:01,182 - INFO - Total volumes processed: 1
+2025-04-30 18:23:01,182 - INFO - Successfully moved: 0
+2025-04-30 18:23:01,182 - INFO - Failed to move: 1
+2025-04-30 18:23:01,183 - INFO - Failed volumes:
+2025-04-30 18:23:01,183 - INFO -   - source
+2025-04-30 18:23:01,184 - INFO - Total duration: 00:00:10
+2025-04-30 18:23:01,184 - INFO - Average time per volume: 0.17 minutes
+2025-04-30 18:23:01,184 - INFO - ======================================================================
+2025-04-30 18:24:24,645 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-30 18:24:24,646 - INFO - Configuration:
+2025-04-30 18:24:24,646 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-30 18:24:24,646 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-30 18:24:24,646 - INFO -   - Max concurrent moves: 4
+2025-04-30 18:24:24,646 - INFO -   - Cutover action: retry
+2025-04-30 18:24:24,646 - INFO -   - Cutover window: 30 seconds
+2025-04-30 18:24:24,646 - INFO -   - Timeout: 86400 seconds
+2025-04-30 18:24:24,646 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-30 18:24:24,646 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-30 18:24:24,646 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-30 18:24:24,646 - INFO - Started migration for volume source (1/1)
+2025-04-30 18:24:28,227 - ERROR - CLI Error starting volume move for source: 
+2025-04-30 18:24:28,227 - ERROR - Failed to initiate move for volume source: 
+2025-04-30 18:24:28,664 - ERROR - ✗ Volume source migration failed
+2025-04-30 18:24:29,668 - INFO - ======================================================================
+2025-04-30 18:24:29,668 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-30 18:24:29,668 - INFO - ======================================================================
+2025-04-30 18:24:29,669 - INFO - Total volumes processed: 1
+2025-04-30 18:24:29,669 - INFO - Successfully moved: 0
+2025-04-30 18:24:29,669 - INFO - Failed to move: 1
+2025-04-30 18:24:29,669 - INFO - Failed volumes:
+2025-04-30 18:24:29,670 - INFO -   - source
+2025-04-30 18:24:29,670 - INFO - Total duration: 00:00:05
+2025-04-30 18:24:29,670 - INFO - Average time per volume: 0.08 minutes
+2025-04-30 18:24:29,670 - INFO - ======================================================================
+2025-04-30 18:26:23,109 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-30 18:26:23,109 - INFO - Configuration:
+2025-04-30 18:26:23,109 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-30 18:26:23,109 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-30 18:26:23,109 - INFO -   - Max concurrent moves: 4
+2025-04-30 18:26:23,109 - INFO -   - Cutover action: retry
+2025-04-30 18:26:23,109 - INFO -   - Cutover window: 30 seconds
+2025-04-30 18:26:23,109 - INFO -   - Timeout: 86400 seconds
+2025-04-30 18:26:23,110 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-30 18:26:23,110 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-30 18:26:23,110 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-30 18:26:23,110 - INFO - Started migration for volume source (1/1)
+2025-04-30 18:26:25,576 - ERROR - CLI Error starting volume move for source: 
+2025-04-30 18:26:25,576 - ERROR - Failed to initiate move for volume source: 
+2025-04-30 18:26:26,120 - ERROR - ✗ Volume source migration failed
+2025-04-30 18:26:27,123 - INFO - ======================================================================
+2025-04-30 18:26:27,123 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-30 18:26:27,123 - INFO - ======================================================================
+2025-04-30 18:26:27,124 - INFO - Total volumes processed: 1
+2025-04-30 18:26:27,124 - INFO - Successfully moved: 0
+2025-04-30 18:26:27,124 - INFO - Failed to move: 1
+2025-04-30 18:26:27,124 - INFO - Failed volumes:
+2025-04-30 18:26:27,125 - INFO -   - source
+2025-04-30 18:26:27,125 - INFO - Total duration: 00:00:04
+2025-04-30 18:26:27,125 - INFO - Average time per volume: 0.07 minutes
+2025-04-30 18:26:27,125 - INFO - ======================================================================
+2025-04-30 18:29:16,498 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-30 18:29:16,498 - INFO - Configuration:
+2025-04-30 18:29:16,498 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-30 18:29:16,498 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-30 18:29:16,499 - INFO -   - Max concurrent moves: 4
+2025-04-30 18:29:16,499 - INFO -   - Cutover action: retry
+2025-04-30 18:29:16,499 - INFO -   - Cutover window: 30 seconds
+2025-04-30 18:29:16,499 - INFO -   - Timeout: 86400 seconds
+2025-04-30 18:29:16,499 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-30 18:29:16,499 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-30 18:29:16,499 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-30 18:29:16,499 - INFO - Started migration for volume source (1/1)
+2025-04-30 18:29:18,115 - ERROR - CLI Error starting volume move for source: 
+2025-04-30 18:29:18,115 - ERROR - Failed to initiate move for volume source: 
+2025-04-30 18:29:18,505 - ERROR - ✗ Volume source migration failed
+2025-04-30 18:29:19,510 - INFO - ======================================================================
+2025-04-30 18:29:19,511 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-30 18:29:19,511 - INFO - ======================================================================
+2025-04-30 18:29:19,511 - INFO - Total volumes processed: 1
+2025-04-30 18:29:19,511 - INFO - Successfully moved: 0
+2025-04-30 18:29:19,511 - INFO - Failed to move: 1
+2025-04-30 18:29:19,512 - INFO - Failed volumes:
+2025-04-30 18:29:19,512 - INFO -   - source
+2025-04-30 18:29:19,512 - INFO - Total duration: 00:00:03
+2025-04-30 18:29:19,512 - INFO - Average time per volume: 0.05 minutes
+2025-04-30 18:29:19,512 - INFO - ======================================================================
+2025-04-30 18:30:39,608 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-30 18:30:39,608 - INFO - Configuration:
+2025-04-30 18:30:39,608 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-30 18:30:39,608 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-30 18:30:39,608 - INFO -   - Max concurrent moves: 4
+2025-04-30 18:30:39,608 - INFO -   - Cutover action: retry
+2025-04-30 18:30:39,608 - INFO -   - Cutover window: 30 seconds
+2025-04-30 18:30:39,608 - INFO -   - Timeout: 86400 seconds
+2025-04-30 18:30:39,608 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-30 18:30:39,608 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-30 18:30:39,608 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-30 18:30:39,608 - INFO - Started migration for volume source (1/1)
+2025-04-30 18:30:41,373 - ERROR - CLI Error starting volume move for source: 
+2025-04-30 18:30:41,374 - ERROR - Command execution failed
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 209, in initiate_volume_move_cli
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['ssh', 'storage.gen@svlngen4-c04-san', 'volume', 'move', 'start', '-vserver', '*', '-volume', 'source', '-destination-aggregate', 'aggr1_n04', '-cutover-action', 'retry', '-cutover-window', '30']' returned non-zero exit status 255.
+2025-04-30 18:30:41,377 - ERROR - Failed to initiate move for volume source: 
+2025-04-30 18:30:41,617 - ERROR - ✗ Volume source migration failed
+2025-04-30 18:30:42,624 - INFO - ======================================================================
+2025-04-30 18:30:42,624 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-30 18:30:42,624 - INFO - ======================================================================
+2025-04-30 18:30:42,624 - INFO - Total volumes processed: 1
+2025-04-30 18:30:42,625 - INFO - Successfully moved: 0
+2025-04-30 18:30:42,625 - INFO - Failed to move: 1
+2025-04-30 18:30:42,625 - INFO - Failed volumes:
+2025-04-30 18:30:42,625 - INFO -   - source
+2025-04-30 18:30:42,625 - INFO - Total duration: 00:00:03
+2025-04-30 18:30:42,625 - INFO - Average time per volume: 0.05 minutes
+2025-04-30 18:30:42,625 - INFO - ======================================================================
+2025-04-30 18:32:08,263 - INFO - Preparing to move 1 volumes to aggregate aggr1_n04
+2025-04-30 18:32:08,264 - INFO - Configuration:
+2025-04-30 18:32:08,264 - INFO -   - Cluster: svlngen4-c04-san
+2025-04-30 18:32:08,264 - INFO -   - Destination aggregate: aggr1_n04
+2025-04-30 18:32:08,264 - INFO -   - Max concurrent moves: 4
+2025-04-30 18:32:08,264 - INFO -   - Cutover action: retry
+2025-04-30 18:32:08,264 - INFO -   - Cutover window: 30 seconds
+2025-04-30 18:32:08,264 - INFO -   - Timeout: 86400 seconds
+2025-04-30 18:32:08,264 - INFO - Checking status of destination aggregate: aggr1_n04
+2025-04-30 18:32:08,264 - INFO - Starting migration of 1 volumes to aggregate aggr1_n04
+2025-04-30 18:32:08,264 - INFO - Starting move for volume source to aggregate aggr1_n04
+2025-04-30 18:32:08,264 - INFO - Started migration for volume source (1/1)
+2025-04-30 18:32:13,653 - ERROR - CLI Error starting volume move for source: 
+2025-04-30 18:32:13,654 - ERROR - Command execution failed
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 209, in initiate_volume_move_cli
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['ssh', 'storage.gen@svlngen4-c04-san', 'volume', 'move', 'start', '-vserver', 'svlngen4-c04-san-ns', '-volume', 'source', '-destination-aggregate', 'aggr1_n04', '-cutover-action', 'retry', '-cutover-window', '30']' returned non-zero exit status 255.
+2025-04-30 18:32:13,659 - ERROR - Failed to initiate move for volume source: 
+2025-04-30 18:32:14,279 - ERROR - ✗ Volume source migration failed
+2025-04-30 18:32:15,280 - INFO - ======================================================================
+2025-04-30 18:32:15,280 - INFO - VOLUME MIGRATION SUMMARY
+2025-04-30 18:32:15,280 - INFO - ======================================================================
+2025-04-30 18:32:15,280 - INFO - Total volumes processed: 1
+2025-04-30 18:32:15,281 - INFO - Successfully moved: 0
+2025-04-30 18:32:15,281 - INFO - Failed to move: 1
+2025-04-30 18:32:15,281 - INFO - Failed volumes:
+2025-04-30 18:32:15,281 - INFO -   - source
+2025-04-30 18:32:15,281 - INFO - Total duration: 00:00:07
+2025-04-30 18:32:15,281 - INFO - Average time per volume: 0.12 minutes
+2025-04-30 18:32:15,281 - INFO - ======================================================================
+2025-06-10 14:57:50,939 - ERROR - No volumes specified for migration
+2025-06-10 14:58:46,062 - ERROR - No volumes specified for migration
+2025-06-10 14:59:28,728 - ERROR - No volumes specified for migration
+2025-06-10 14:59:42,129 - ERROR - No volumes specified for migration
+2025-06-10 15:01:38,632 - INFO - Preparing to move 4 volumes to aggregate dAggr.txt
+2025-06-10 15:01:38,633 - INFO - Configuration:
+2025-06-10 15:01:38,633 - INFO -   - Cluster: svlngen4-c04-san
+2025-06-10 15:01:38,633 - INFO -   - Destination aggregate: dAggr.txt
+2025-06-10 15:01:38,633 - INFO -   - Max concurrent moves: 4
+2025-06-10 15:01:38,633 - INFO -   - Cutover action: retry
+2025-06-10 15:01:38,633 - INFO -   - Cutover window: 30 seconds
+2025-06-10 15:01:38,633 - INFO -   - Timeout: 86400 seconds
+2025-06-10 15:01:38,633 - INFO - Checking status of destination aggregate: dAggr.txt
+2025-06-10 15:01:38,633 - INFO - Starting migration of 4 volumes to aggregate dAggr.txt
+2025-06-10 15:01:38,633 - INFO - Starting move for volume vol_move_test04 to aggregate dAggr.txt
+2025-06-10 15:01:38,633 - INFO - Started migration for volume vol_move_test04 (1/4)
+2025-06-10 15:01:38,633 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:01:38,633 - INFO - Starting move for volume vol_move_test02 to aggregate dAggr.txt
+2025-06-10 15:01:38,633 - INFO - Started migration for volume vol_move_test02 (2/4)
+2025-06-10 15:01:38,633 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:01:38,633 - INFO - Starting move for volume vol_move_test03 to aggregate dAggr.txt
+2025-06-10 15:01:38,633 - INFO - Started migration for volume vol_move_test03 (3/4)
+2025-06-10 15:01:38,634 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:01:38,634 - INFO - Starting move for volume vol_move_test01 to aggregate dAggr.txt
+2025-06-10 15:01:38,634 - INFO - Started migration for volume vol_move_test01 (4/4)
+2025-06-10 15:01:38,634 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:01:38,827 - DEBUG - starting thread (client mode): 0x293c0d70
+2025-06-10 15:01:38,827 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:01:38,837 - DEBUG - starting thread (client mode): 0x293b5a90
+2025-06-10 15:01:38,837 - DEBUG - starting thread (client mode): 0x293b5f90
+2025-06-10 15:01:38,838 - DEBUG - starting thread (client mode): 0x293b6350
+2025-06-10 15:01:38,838 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:01:38,838 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:01:38,838 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:01:38,910 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:01:38,910 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:01:38,919 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:01:38,920 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:01:38,920 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:01:38,920 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:01:38,921 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:01:38,922 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:01:38,967 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:01:38,968 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:01:38,968 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:01:38,968 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,968 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,968 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,968 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,968 - DEBUG - client compress: none
+2025-06-10 15:01:38,968 - DEBUG - server compress: none
+2025-06-10 15:01:38,968 - DEBUG - client lang: <none>
+2025-06-10 15:01:38,968 - DEBUG - server lang: <none>
+2025-06-10 15:01:38,969 - DEBUG - kex follows: False
+2025-06-10 15:01:38,969 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:01:38,969 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:01:38,969 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:01:38,969 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:01:38,969 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:01:38,969 - DEBUG - Compression: none
+2025-06-10 15:01:38,969 - DEBUG - === End of kex handshake ===
+2025-06-10 15:01:38,985 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:01:38,985 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:01:38,985 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:01:38,985 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,985 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,985 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,985 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,986 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:01:38,986 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:01:38,986 - DEBUG - client compress: none
+2025-06-10 15:01:38,986 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:01:38,986 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:01:38,986 - DEBUG - server compress: none
+2025-06-10 15:01:38,986 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:01:38,986 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:01:38,986 - DEBUG - client lang: <none>
+2025-06-10 15:01:38,986 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,986 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,986 - DEBUG - server lang: <none>
+2025-06-10 15:01:38,986 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,986 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:01:38,987 - DEBUG - kex follows: False
+2025-06-10 15:01:38,987 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,987 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,987 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:01:38,987 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,987 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:01:38,987 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:01:38,987 - DEBUG - client compress: none
+2025-06-10 15:01:38,987 - DEBUG - client compress: none
+2025-06-10 15:01:38,987 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:01:38,987 - DEBUG - server compress: none
+2025-06-10 15:01:38,987 - DEBUG - server compress: none
+2025-06-10 15:01:38,987 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:01:38,987 - DEBUG - client lang: <none>
+2025-06-10 15:01:38,987 - DEBUG - client lang: <none>
+2025-06-10 15:01:38,987 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:01:38,987 - DEBUG - server lang: <none>
+2025-06-10 15:01:38,988 - DEBUG - server lang: <none>
+2025-06-10 15:01:38,988 - DEBUG - Compression: none
+2025-06-10 15:01:38,988 - DEBUG - kex follows: False
+2025-06-10 15:01:38,988 - DEBUG - kex follows: False
+2025-06-10 15:01:38,988 - DEBUG - === End of kex handshake ===
+2025-06-10 15:01:38,988 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:01:38,988 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:01:38,988 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:01:38,988 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:01:38,988 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:01:38,988 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:01:38,988 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:01:38,988 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:01:38,988 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:01:38,988 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:01:38,989 - DEBUG - Compression: none
+2025-06-10 15:01:38,989 - DEBUG - Compression: none
+2025-06-10 15:01:38,989 - DEBUG - === End of kex handshake ===
+2025-06-10 15:01:38,989 - DEBUG - === End of kex handshake ===
+2025-06-10 15:01:39,045 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:01:39,045 - DEBUG - Switch to new keys ...
+2025-06-10 15:01:39,046 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:01:39,046 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:01:39,061 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:01:39,062 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:01:39,062 - DEBUG - Switch to new keys ...
+2025-06-10 15:01:39,062 - DEBUG - Switch to new keys ...
+2025-06-10 15:01:39,062 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:01:39,062 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:01:39,062 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:01:39,062 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:01:39,062 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:01:39,062 - DEBUG - Switch to new keys ...
+2025-06-10 15:01:39,063 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:01:39,063 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:01:39,186 - DEBUG - userauth is OK
+2025-06-10 15:01:39,213 - DEBUG - userauth is OK
+2025-06-10 15:01:39,222 - DEBUG - userauth is OK
+2025-06-10 15:01:39,222 - DEBUG - userauth is OK
+2025-06-10 15:01:43,991 - INFO - Authentication (password) failed.
+2025-06-10 15:01:43,992 - INFO - Authentication (password) failed.
+2025-06-10 15:01:43,992 - ERROR - SSH error when moving volume vol_move_test01
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:01:43,993 - ERROR - SSH error when moving volume vol_move_test04
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:01:43,996 - INFO - Authentication (password) failed.
+2025-06-10 15:01:44,003 - ERROR - Failed to initiate move for volume vol_move_test01: Authentication failed.
+2025-06-10 15:01:44,003 - ERROR - Failed to initiate move for volume vol_move_test04: Authentication failed.
+2025-06-10 15:01:44,003 - ERROR - SSH error when moving volume vol_move_test02
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:01:44,005 - INFO - Authentication (password) failed.
+2025-06-10 15:01:44,005 - ERROR - SSH error when moving volume vol_move_test03
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:01:44,006 - ERROR - Failed to initiate move for volume vol_move_test02: Authentication failed.
+2025-06-10 15:01:44,008 - ERROR - Failed to initiate move for volume vol_move_test03: Authentication failed.
+2025-06-10 15:01:44,093 - DEBUG - EOF in transport thread
+2025-06-10 15:01:44,094 - DEBUG - EOF in transport thread
+2025-06-10 15:01:44,104 - DEBUG - EOF in transport thread
+2025-06-10 15:01:44,106 - DEBUG - EOF in transport thread
+2025-06-10 15:01:44,648 - ERROR - ✗ Volume vol_move_test04 migration failed
+2025-06-10 15:01:44,649 - ERROR - ✗ Volume vol_move_test02 migration failed
+2025-06-10 15:01:44,649 - ERROR - ✗ Volume vol_move_test03 migration failed
+2025-06-10 15:01:44,649 - ERROR - ✗ Volume vol_move_test01 migration failed
+2025-06-10 15:01:45,653 - INFO - ======================================================================
+2025-06-10 15:01:45,654 - INFO - VOLUME MIGRATION SUMMARY
+2025-06-10 15:01:45,654 - INFO - ======================================================================
+2025-06-10 15:01:45,654 - INFO - Total volumes processed: 4
+2025-06-10 15:01:45,654 - INFO - Successfully moved: 0
+2025-06-10 15:01:45,654 - INFO - Failed to move: 4
+2025-06-10 15:01:45,654 - INFO - Failed volumes:
+2025-06-10 15:01:45,654 - INFO -   - vol_move_test04
+2025-06-10 15:01:45,654 - INFO -   - vol_move_test02
+2025-06-10 15:01:45,654 - INFO -   - vol_move_test03
+2025-06-10 15:01:45,654 - INFO -   - vol_move_test01
+2025-06-10 15:01:45,655 - INFO - Total duration: 00:00:07
+2025-06-10 15:01:45,655 - INFO - Average time per volume: 0.03 minutes
+2025-06-10 15:01:45,655 - INFO - ======================================================================
+2025-06-10 15:02:59,644 - INFO - Preparing to move 4 volumes to aggregate dAggr.txt
+2025-06-10 15:02:59,644 - INFO - Configuration:
+2025-06-10 15:02:59,644 - INFO -   - Cluster: svlngen4-c04-san
+2025-06-10 15:02:59,645 - INFO -   - Destination aggregate: dAggr.txt
+2025-06-10 15:02:59,645 - INFO -   - Max concurrent moves: 4
+2025-06-10 15:02:59,645 - INFO -   - Cutover action: retry
+2025-06-10 15:02:59,645 - INFO -   - Cutover window: 30 seconds
+2025-06-10 15:02:59,645 - INFO -   - Timeout: 86400 seconds
+2025-06-10 15:02:59,645 - INFO - Checking status of destination aggregate: dAggr.txt
+2025-06-10 15:02:59,645 - INFO - Starting migration of 4 volumes to aggregate dAggr.txt
+2025-06-10 15:02:59,645 - INFO - Starting move for volume vol_move_test04 to aggregate dAggr.txt
+2025-06-10 15:02:59,645 - INFO - Started migration for volume vol_move_test04 (1/4)
+2025-06-10 15:02:59,645 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:02:59,645 - INFO - Starting move for volume vol_move_test02 to aggregate dAggr.txt
+2025-06-10 15:02:59,645 - INFO - Started migration for volume vol_move_test02 (2/4)
+2025-06-10 15:02:59,645 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:02:59,645 - INFO - Starting move for volume vol_move_test03 to aggregate dAggr.txt
+2025-06-10 15:02:59,645 - INFO - Started migration for volume vol_move_test03 (3/4)
+2025-06-10 15:02:59,645 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:02:59,645 - INFO - Starting move for volume vol_move_test01 to aggregate dAggr.txt
+2025-06-10 15:02:59,645 - INFO - Started migration for volume vol_move_test01 (4/4)
+2025-06-10 15:02:59,645 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:02:59,714 - DEBUG - starting thread (client mode): 0x108c0d70
+2025-06-10 15:02:59,714 - DEBUG - starting thread (client mode): 0x108b5f90
+2025-06-10 15:02:59,714 - DEBUG - starting thread (client mode): 0x108b5a90
+2025-06-10 15:02:59,715 - DEBUG - starting thread (client mode): 0x108b6350
+2025-06-10 15:02:59,715 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:02:59,715 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:02:59,715 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:02:59,715 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:02:59,796 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:02:59,796 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:02:59,796 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:02:59,796 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:02:59,803 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:02:59,803 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:02:59,805 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:02:59,805 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:02:59,860 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:02:59,861 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:02:59,861 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:02:59,861 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:02:59,861 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:02:59,861 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:02:59,861 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,861 - DEBUG - client compress: none
+2025-06-10 15:02:59,861 - DEBUG - client compress: none
+2025-06-10 15:02:59,861 - DEBUG - server compress: none
+2025-06-10 15:02:59,861 - DEBUG - server compress: none
+2025-06-10 15:02:59,861 - DEBUG - client lang: <none>
+2025-06-10 15:02:59,861 - DEBUG - client lang: <none>
+2025-06-10 15:02:59,861 - DEBUG - server lang: <none>
+2025-06-10 15:02:59,861 - DEBUG - server lang: <none>
+2025-06-10 15:02:59,861 - DEBUG - kex follows: False
+2025-06-10 15:02:59,861 - DEBUG - kex follows: False
+2025-06-10 15:02:59,861 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:02:59,861 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:02:59,861 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:02:59,862 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:02:59,862 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:02:59,862 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:02:59,862 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:02:59,862 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:02:59,862 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:02:59,862 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:02:59,862 - DEBUG - Compression: none
+2025-06-10 15:02:59,862 - DEBUG - Compression: none
+2025-06-10 15:02:59,862 - DEBUG - === End of kex handshake ===
+2025-06-10 15:02:59,862 - DEBUG - === End of kex handshake ===
+2025-06-10 15:02:59,869 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:02:59,870 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:02:59,870 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:02:59,870 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:02:59,870 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:02:59,870 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:02:59,870 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:02:59,870 - DEBUG - client compress: none
+2025-06-10 15:02:59,870 - DEBUG - client compress: none
+2025-06-10 15:02:59,870 - DEBUG - server compress: none
+2025-06-10 15:02:59,870 - DEBUG - server compress: none
+2025-06-10 15:02:59,870 - DEBUG - client lang: <none>
+2025-06-10 15:02:59,870 - DEBUG - client lang: <none>
+2025-06-10 15:02:59,870 - DEBUG - server lang: <none>
+2025-06-10 15:02:59,870 - DEBUG - server lang: <none>
+2025-06-10 15:02:59,870 - DEBUG - kex follows: False
+2025-06-10 15:02:59,870 - DEBUG - kex follows: False
+2025-06-10 15:02:59,870 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:02:59,870 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:02:59,870 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:02:59,870 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:02:59,870 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:02:59,871 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:02:59,871 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:02:59,871 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:02:59,871 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:02:59,871 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:02:59,871 - DEBUG - Compression: none
+2025-06-10 15:02:59,871 - DEBUG - Compression: none
+2025-06-10 15:02:59,871 - DEBUG - === End of kex handshake ===
+2025-06-10 15:02:59,871 - DEBUG - === End of kex handshake ===
+2025-06-10 15:02:59,932 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:02:59,934 - DEBUG - Switch to new keys ...
+2025-06-10 15:02:59,934 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:02:59,934 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:02:59,934 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:02:59,934 - DEBUG - Switch to new keys ...
+2025-06-10 15:02:59,935 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:02:59,935 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:02:59,938 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:02:59,938 - DEBUG - Switch to new keys ...
+2025-06-10 15:02:59,939 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:02:59,939 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:02:59,939 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:02:59,939 - DEBUG - Switch to new keys ...
+2025-06-10 15:02:59,940 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:02:59,940 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:03:00,062 - DEBUG - userauth is OK
+2025-06-10 15:03:00,094 - DEBUG - userauth is OK
+2025-06-10 15:03:00,103 - DEBUG - userauth is OK
+2025-06-10 15:03:00,103 - DEBUG - userauth is OK
+2025-06-10 15:03:04,847 - INFO - Authentication (password) failed.
+2025-06-10 15:03:04,848 - ERROR - SSH error when moving volume vol_move_test04
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:03:04,856 - ERROR - Failed to initiate move for volume vol_move_test04: Authentication failed.
+2025-06-10 15:03:04,878 - INFO - Authentication (password) failed.
+2025-06-10 15:03:04,878 - ERROR - SSH error when moving volume vol_move_test02
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:03:04,880 - ERROR - Failed to initiate move for volume vol_move_test02: Authentication failed.
+2025-06-10 15:03:04,887 - INFO - Authentication (password) failed.
+2025-06-10 15:03:04,887 - INFO - Authentication (password) failed.
+2025-06-10 15:03:04,887 - ERROR - SSH error when moving volume vol_move_test01
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:03:04,888 - ERROR - SSH error when moving volume vol_move_test03
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:03:04,889 - ERROR - Failed to initiate move for volume vol_move_test01: Authentication failed.
+2025-06-10 15:03:04,889 - ERROR - Failed to initiate move for volume vol_move_test03: Authentication failed.
+2025-06-10 15:03:04,949 - DEBUG - EOF in transport thread
+2025-06-10 15:03:04,979 - DEBUG - EOF in transport thread
+2025-06-10 15:03:04,988 - DEBUG - EOF in transport thread
+2025-06-10 15:03:04,988 - DEBUG - EOF in transport thread
+2025-06-10 15:03:05,664 - ERROR - ✗ Volume vol_move_test04 migration failed
+2025-06-10 15:03:05,664 - ERROR - ✗ Volume vol_move_test02 migration failed
+2025-06-10 15:03:05,664 - ERROR - ✗ Volume vol_move_test03 migration failed
+2025-06-10 15:03:05,664 - ERROR - ✗ Volume vol_move_test01 migration failed
+2025-06-10 15:03:06,668 - INFO - ======================================================================
+2025-06-10 15:03:06,668 - INFO - VOLUME MIGRATION SUMMARY
+2025-06-10 15:03:06,668 - INFO - ======================================================================
+2025-06-10 15:03:06,669 - INFO - Total volumes processed: 4
+2025-06-10 15:03:06,669 - INFO - Successfully moved: 0
+2025-06-10 15:03:06,669 - INFO - Failed to move: 4
+2025-06-10 15:03:06,669 - INFO - Failed volumes:
+2025-06-10 15:03:06,669 - INFO -   - vol_move_test04
+2025-06-10 15:03:06,669 - INFO -   - vol_move_test02
+2025-06-10 15:03:06,669 - INFO -   - vol_move_test03
+2025-06-10 15:03:06,669 - INFO -   - vol_move_test01
+2025-06-10 15:03:06,669 - INFO - Total duration: 00:00:07
+2025-06-10 15:03:06,669 - INFO - Average time per volume: 0.03 minutes
+2025-06-10 15:03:06,669 - INFO - ======================================================================
+2025-06-10 15:04:51,179 - INFO - Preparing to move 4 volumes to aggregate dAggr.txt
+2025-06-10 15:04:51,180 - INFO - Configuration:
+2025-06-10 15:04:51,180 - INFO -   - Cluster: svlngen4-c04-san
+2025-06-10 15:04:51,180 - INFO -   - Destination aggregate: dAggr.txt
+2025-06-10 15:04:51,180 - INFO -   - Max concurrent moves: 4
+2025-06-10 15:04:51,180 - INFO -   - Cutover action: retry
+2025-06-10 15:04:51,180 - INFO -   - Cutover window: 30 seconds
+2025-06-10 15:04:51,180 - INFO -   - Timeout: 86400 seconds
+2025-06-10 15:04:51,180 - INFO - Checking status of destination aggregate: dAggr.txt
+2025-06-10 15:04:51,180 - INFO - Starting migration of 4 volumes to aggregate dAggr.txt
+2025-06-10 15:04:51,180 - INFO - Starting move for volume vol_move_test03 to aggregate dAggr.txt
+2025-06-10 15:04:51,180 - INFO - Started migration for volume vol_move_test03 (1/4)
+2025-06-10 15:04:51,180 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:04:51,180 - INFO - Starting move for volume vol_move_test02 to aggregate dAggr.txt
+2025-06-10 15:04:51,180 - INFO - Started migration for volume vol_move_test02 (2/4)
+2025-06-10 15:04:51,180 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:04:51,180 - INFO - Starting move for volume vol_move_test04 to aggregate dAggr.txt
+2025-06-10 15:04:51,180 - INFO - Started migration for volume vol_move_test04 (3/4)
+2025-06-10 15:04:51,180 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:04:51,180 - INFO - Starting move for volume vol_move_test01 to aggregate dAggr.txt
+2025-06-10 15:04:51,181 - INFO - Started migration for volume vol_move_test01 (4/4)
+2025-06-10 15:04:51,181 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:04:51,249 - DEBUG - starting thread (client mode): 0xb9b5a90
+2025-06-10 15:04:51,249 - DEBUG - starting thread (client mode): 0xb9b5f90
+2025-06-10 15:04:51,249 - DEBUG - starting thread (client mode): 0xb9c0d70
+2025-06-10 15:04:51,249 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:04:51,249 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:04:51,249 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:04:51,250 - DEBUG - starting thread (client mode): 0xb9b6350
+2025-06-10 15:04:51,250 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:04:51,330 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:04:51,330 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:04:51,330 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:04:51,330 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:04:51,330 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:04:51,330 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:04:51,330 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:04:51,330 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:04:51,395 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:04:51,395 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:04:51,395 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:04:51,395 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:04:51,395 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:04:51,395 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:04:51,395 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:04:51,395 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:04:51,395 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:04:51,395 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,395 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,395 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:04:51,396 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:04:51,396 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:04:51,396 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - client compress: none
+2025-06-10 15:04:51,396 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - client compress: none
+2025-06-10 15:04:51,396 - DEBUG - client compress: none
+2025-06-10 15:04:51,396 - DEBUG - server compress: none
+2025-06-10 15:04:51,396 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - server compress: none
+2025-06-10 15:04:51,396 - DEBUG - server compress: none
+2025-06-10 15:04:51,396 - DEBUG - client lang: <none>
+2025-06-10 15:04:51,396 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,396 - DEBUG - client lang: <none>
+2025-06-10 15:04:51,396 - DEBUG - client lang: <none>
+2025-06-10 15:04:51,397 - DEBUG - server lang: <none>
+2025-06-10 15:04:51,397 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:04:51,397 - DEBUG - server lang: <none>
+2025-06-10 15:04:51,397 - DEBUG - server lang: <none>
+2025-06-10 15:04:51,397 - DEBUG - kex follows: False
+2025-06-10 15:04:51,397 - DEBUG - client compress: none
+2025-06-10 15:04:51,397 - DEBUG - kex follows: False
+2025-06-10 15:04:51,397 - DEBUG - kex follows: False
+2025-06-10 15:04:51,397 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:04:51,397 - DEBUG - server compress: none
+2025-06-10 15:04:51,397 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:04:51,397 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:04:51,397 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:04:51,397 - DEBUG - client lang: <none>
+2025-06-10 15:04:51,397 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:04:51,397 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:04:51,398 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:04:51,398 - DEBUG - server lang: <none>
+2025-06-10 15:04:51,398 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:04:51,398 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:04:51,398 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:04:51,398 - DEBUG - kex follows: False
+2025-06-10 15:04:51,398 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:04:51,398 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:04:51,398 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:04:51,398 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:04:51,398 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:04:51,398 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:04:51,398 - DEBUG - Compression: none
+2025-06-10 15:04:51,398 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:04:51,398 - DEBUG - Compression: none
+2025-06-10 15:04:51,398 - DEBUG - Compression: none
+2025-06-10 15:04:51,399 - DEBUG - === End of kex handshake ===
+2025-06-10 15:04:51,399 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:04:51,399 - DEBUG - === End of kex handshake ===
+2025-06-10 15:04:51,399 - DEBUG - === End of kex handshake ===
+2025-06-10 15:04:51,400 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:04:51,401 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:04:51,401 - DEBUG - Compression: none
+2025-06-10 15:04:51,401 - DEBUG - === End of kex handshake ===
+2025-06-10 15:04:51,475 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:04:51,476 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:04:51,477 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:04:51,478 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:04:51,478 - DEBUG - Switch to new keys ...
+2025-06-10 15:04:51,478 - DEBUG - Switch to new keys ...
+2025-06-10 15:04:51,478 - DEBUG - Switch to new keys ...
+2025-06-10 15:04:51,479 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:04:51,479 - DEBUG - Switch to new keys ...
+2025-06-10 15:04:51,479 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:04:51,479 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:04:51,479 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:04:51,480 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:04:51,480 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:04:51,480 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:04:51,480 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:04:51,639 - DEBUG - userauth is OK
+2025-06-10 15:04:51,654 - DEBUG - userauth is OK
+2025-06-10 15:04:51,654 - DEBUG - userauth is OK
+2025-06-10 15:04:51,654 - DEBUG - userauth is OK
+2025-06-10 15:04:56,447 - INFO - Authentication (password) failed.
+2025-06-10 15:04:56,448 - INFO - Authentication (password) failed.
+2025-06-10 15:04:56,448 - INFO - Authentication (password) failed.
+2025-06-10 15:04:56,448 - INFO - Authentication (password) failed.
+2025-06-10 15:04:56,449 - ERROR - SSH error when moving volume vol_move_test04
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:04:56,449 - ERROR - SSH error when moving volume vol_move_test03
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:04:56,449 - ERROR - SSH error when moving volume vol_move_test01
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:04:56,450 - ERROR - SSH error when moving volume vol_move_test02
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:04:56,459 - ERROR - Failed to initiate move for volume vol_move_test04: Authentication failed.
+2025-06-10 15:04:56,460 - ERROR - Failed to initiate move for volume vol_move_test03: Authentication failed.
+2025-06-10 15:04:56,461 - ERROR - Failed to initiate move for volume vol_move_test01: Authentication failed.
+2025-06-10 15:04:56,461 - ERROR - Failed to initiate move for volume vol_move_test02: Authentication failed.
+2025-06-10 15:04:56,549 - DEBUG - EOF in transport thread
+2025-06-10 15:04:56,550 - DEBUG - EOF in transport thread
+2025-06-10 15:04:56,550 - DEBUG - EOF in transport thread
+2025-06-10 15:04:56,551 - DEBUG - EOF in transport thread
+2025-06-10 15:04:57,198 - ERROR - ✗ Volume vol_move_test03 migration failed
+2025-06-10 15:04:57,198 - ERROR - ✗ Volume vol_move_test02 migration failed
+2025-06-10 15:04:57,198 - ERROR - ✗ Volume vol_move_test04 migration failed
+2025-06-10 15:04:57,199 - ERROR - ✗ Volume vol_move_test01 migration failed
+2025-06-10 15:04:58,205 - INFO - ======================================================================
+2025-06-10 15:04:58,205 - INFO - VOLUME MIGRATION SUMMARY
+2025-06-10 15:04:58,205 - INFO - ======================================================================
+2025-06-10 15:04:58,206 - INFO - Total volumes processed: 4
+2025-06-10 15:04:58,206 - INFO - Successfully moved: 0
+2025-06-10 15:04:58,206 - INFO - Failed to move: 4
+2025-06-10 15:04:58,206 - INFO - Failed volumes:
+2025-06-10 15:04:58,206 - INFO -   - vol_move_test03
+2025-06-10 15:04:58,206 - INFO -   - vol_move_test02
+2025-06-10 15:04:58,207 - INFO -   - vol_move_test04
+2025-06-10 15:04:58,207 - INFO -   - vol_move_test01
+2025-06-10 15:04:58,207 - INFO - Total duration: 00:00:07
+2025-06-10 15:04:58,207 - INFO - Average time per volume: 0.03 minutes
+2025-06-10 15:04:58,208 - INFO - ======================================================================
+2025-06-10 15:05:05,426 - INFO - Preparing to move 4 volumes to aggregate dAggr.txt
+2025-06-10 15:05:05,426 - INFO - Configuration:
+2025-06-10 15:05:05,426 - INFO -   - Cluster: svlngen4-c04-san
+2025-06-10 15:05:05,426 - INFO -   - Destination aggregate: dAggr.txt
+2025-06-10 15:05:05,426 - INFO -   - Max concurrent moves: 4
+2025-06-10 15:05:05,426 - INFO -   - Cutover action: retry
+2025-06-10 15:05:05,426 - INFO -   - Cutover window: 30 seconds
+2025-06-10 15:05:05,426 - INFO -   - Timeout: 86400 seconds
+2025-06-10 15:05:05,426 - INFO - Checking status of destination aggregate: dAggr.txt
+2025-06-10 15:05:05,426 - INFO - Starting migration of 4 volumes to aggregate dAggr.txt
+2025-06-10 15:05:05,426 - INFO - Starting move for volume vol_move_test02 to aggregate dAggr.txt
+2025-06-10 15:05:05,426 - INFO - Started migration for volume vol_move_test02 (1/4)
+2025-06-10 15:05:05,426 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:05:05,426 - INFO - Starting move for volume vol_move_test04 to aggregate dAggr.txt
+2025-06-10 15:05:05,426 - INFO - Started migration for volume vol_move_test04 (2/4)
+2025-06-10 15:05:05,426 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:05:05,427 - INFO - Starting move for volume vol_move_test01 to aggregate dAggr.txt
+2025-06-10 15:05:05,427 - INFO - Started migration for volume vol_move_test01 (3/4)
+2025-06-10 15:05:05,427 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:05:05,427 - INFO - Starting move for volume vol_move_test03 to aggregate dAggr.txt
+2025-06-10 15:05:05,427 - INFO - Started migration for volume vol_move_test03 (4/4)
+2025-06-10 15:05:05,427 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:05:05,564 - DEBUG - starting thread (client mode): 0x6b28d70
+2025-06-10 15:05:05,564 - DEBUG - starting thread (client mode): 0x6b1da90
+2025-06-10 15:05:05,565 - DEBUG - starting thread (client mode): 0x6b1e350
+2025-06-10 15:05:05,565 - DEBUG - starting thread (client mode): 0x6b1df90
+2025-06-10 15:05:05,565 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:05:05,565 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:05:05,565 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:05:05,565 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:05:05,648 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:05:05,649 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:05:05,654 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:05:05,654 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:05:05,655 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:05:05,655 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:05:05,656 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:05:05,656 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:05:05,707 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:05:05,708 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:05:05,708 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:05:05,708 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,708 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,708 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,708 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,709 - DEBUG - client compress: none
+2025-06-10 15:05:05,709 - DEBUG - server compress: none
+2025-06-10 15:05:05,709 - DEBUG - client lang: <none>
+2025-06-10 15:05:05,709 - DEBUG - server lang: <none>
+2025-06-10 15:05:05,709 - DEBUG - kex follows: False
+2025-06-10 15:05:05,709 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:05:05,709 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:05:05,709 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:05:05,709 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:05:05,710 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:05:05,710 - DEBUG - Compression: none
+2025-06-10 15:05:05,710 - DEBUG - === End of kex handshake ===
+2025-06-10 15:05:05,717 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:05:05,717 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:05:05,717 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:05:05,717 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:05:05,717 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:05:05,718 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:05:05,718 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:05:05,718 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:05:05,718 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,718 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:05:05,718 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,718 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,718 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,718 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,718 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,719 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,719 - DEBUG - client compress: none
+2025-06-10 15:05:05,719 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:05:05,719 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,719 - DEBUG - server compress: none
+2025-06-10 15:05:05,719 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,719 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,719 - DEBUG - client lang: <none>
+2025-06-10 15:05:05,719 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:05:05,719 - DEBUG - client compress: none
+2025-06-10 15:05:05,720 - DEBUG - server lang: <none>
+2025-06-10 15:05:05,720 - DEBUG - client compress: none
+2025-06-10 15:05:05,720 - DEBUG - server compress: none
+2025-06-10 15:05:05,720 - DEBUG - kex follows: False
+2025-06-10 15:05:05,720 - DEBUG - server compress: none
+2025-06-10 15:05:05,720 - DEBUG - client lang: <none>
+2025-06-10 15:05:05,721 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:05:05,721 - DEBUG - client lang: <none>
+2025-06-10 15:05:05,721 - DEBUG - server lang: <none>
+2025-06-10 15:05:05,721 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:05:05,721 - DEBUG - server lang: <none>
+2025-06-10 15:05:05,721 - DEBUG - kex follows: False
+2025-06-10 15:05:05,721 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:05:05,721 - DEBUG - kex follows: False
+2025-06-10 15:05:05,722 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:05:05,722 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:05:05,722 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:05:05,722 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:05:05,722 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:05:05,722 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:05:05,722 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:05:05,722 - DEBUG - Compression: none
+2025-06-10 15:05:05,722 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:05:05,723 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:05:05,723 - DEBUG - === End of kex handshake ===
+2025-06-10 15:05:05,723 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:05:05,723 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:05:05,724 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:05:05,724 - DEBUG - Compression: none
+2025-06-10 15:05:05,724 - DEBUG - Compression: none
+2025-06-10 15:05:05,724 - DEBUG - === End of kex handshake ===
+2025-06-10 15:05:05,724 - DEBUG - === End of kex handshake ===
+2025-06-10 15:05:05,771 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:05:05,773 - DEBUG - Switch to new keys ...
+2025-06-10 15:05:05,774 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:05:05,774 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:05:05,796 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:05:05,797 - DEBUG - Switch to new keys ...
+2025-06-10 15:05:05,797 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:05:05,797 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:05:05,798 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:05:05,798 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:05:05,798 - DEBUG - Switch to new keys ...
+2025-06-10 15:05:05,799 - DEBUG - Switch to new keys ...
+2025-06-10 15:05:05,799 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:05:05,799 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:05:05,800 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:05:05,800 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:05:05,941 - DEBUG - userauth is OK
+2025-06-10 15:05:05,958 - DEBUG - userauth is OK
+2025-06-10 15:05:05,958 - DEBUG - userauth is OK
+2025-06-10 15:05:05,958 - DEBUG - userauth is OK
+2025-06-10 15:05:10,774 - INFO - Authentication (password) failed.
+2025-06-10 15:05:10,775 - INFO - Authentication (password) failed.
+2025-06-10 15:05:10,775 - INFO - Authentication (password) failed.
+2025-06-10 15:05:10,775 - INFO - Authentication (password) failed.
+2025-06-10 15:05:10,775 - ERROR - SSH error when moving volume vol_move_test03
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:05:10,775 - ERROR - SSH error when moving volume vol_move_test04
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:05:10,775 - ERROR - SSH error when moving volume vol_move_test01
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:05:10,775 - ERROR - SSH error when moving volume vol_move_test02
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:05:10,778 - ERROR - Failed to initiate move for volume vol_move_test03: Authentication failed.
+2025-06-10 15:05:10,779 - ERROR - Failed to initiate move for volume vol_move_test04: Authentication failed.
+2025-06-10 15:05:10,780 - ERROR - Failed to initiate move for volume vol_move_test01: Authentication failed.
+2025-06-10 15:05:10,780 - ERROR - Failed to initiate move for volume vol_move_test02: Authentication failed.
+2025-06-10 15:05:10,876 - DEBUG - EOF in transport thread
+2025-06-10 15:05:10,876 - DEBUG - EOF in transport thread
+2025-06-10 15:05:10,876 - DEBUG - EOF in transport thread
+2025-06-10 15:05:10,876 - DEBUG - EOF in transport thread
+2025-06-10 15:05:11,450 - ERROR - ✗ Volume vol_move_test02 migration failed
+2025-06-10 15:05:11,450 - ERROR - ✗ Volume vol_move_test04 migration failed
+2025-06-10 15:05:11,451 - ERROR - ✗ Volume vol_move_test01 migration failed
+2025-06-10 15:05:11,451 - ERROR - ✗ Volume vol_move_test03 migration failed
+2025-06-10 15:05:12,456 - INFO - ======================================================================
+2025-06-10 15:05:12,457 - INFO - VOLUME MIGRATION SUMMARY
+2025-06-10 15:05:12,457 - INFO - ======================================================================
+2025-06-10 15:05:12,457 - INFO - Total volumes processed: 4
+2025-06-10 15:05:12,458 - INFO - Successfully moved: 0
+2025-06-10 15:05:12,458 - INFO - Failed to move: 4
+2025-06-10 15:05:12,458 - INFO - Failed volumes:
+2025-06-10 15:05:12,459 - INFO -   - vol_move_test02
+2025-06-10 15:05:12,459 - INFO -   - vol_move_test04
+2025-06-10 15:05:12,459 - INFO -   - vol_move_test01
+2025-06-10 15:05:12,460 - INFO -   - vol_move_test03
+2025-06-10 15:05:12,460 - INFO - Total duration: 00:00:07
+2025-06-10 15:05:12,460 - INFO - Average time per volume: 0.03 minutes
+2025-06-10 15:05:12,460 - INFO - ======================================================================
+2025-06-10 15:06:21,493 - INFO - Preparing to move 4 volumes to aggregate dAggr.txt
+2025-06-10 15:06:21,494 - INFO - Configuration:
+2025-06-10 15:06:21,494 - INFO -   - Cluster: svlngen4-c04-san
+2025-06-10 15:06:21,494 - INFO -   - Destination aggregate: dAggr.txt
+2025-06-10 15:06:21,494 - INFO -   - Max concurrent moves: 4
+2025-06-10 15:06:21,494 - INFO -   - Cutover action: retry
+2025-06-10 15:06:21,494 - INFO -   - Cutover window: 30 seconds
+2025-06-10 15:06:21,494 - INFO -   - Timeout: 86400 seconds
+2025-06-10 15:06:21,494 - INFO - Checking status of destination aggregate: dAggr.txt
+2025-06-10 15:06:21,494 - INFO - Starting migration of 4 volumes to aggregate dAggr.txt
+2025-06-10 15:06:21,494 - INFO - Starting move for volume vol_move_test02 to aggregate dAggr.txt
+2025-06-10 15:06:21,494 - INFO - Started migration for volume vol_move_test02 (1/4)
+2025-06-10 15:06:21,494 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:06:21,494 - INFO - Starting move for volume vol_move_test01 to aggregate dAggr.txt
+2025-06-10 15:06:21,494 - INFO - Started migration for volume vol_move_test01 (2/4)
+2025-06-10 15:06:21,494 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:06:21,494 - INFO - Starting move for volume vol_move_test03 to aggregate dAggr.txt
+2025-06-10 15:06:21,494 - INFO - Started migration for volume vol_move_test03 (3/4)
+2025-06-10 15:06:21,494 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:06:21,494 - INFO - Starting move for volume vol_move_test04 to aggregate dAggr.txt
+2025-06-10 15:06:21,494 - INFO - Started migration for volume vol_move_test04 (4/4)
+2025-06-10 15:06:21,495 - INFO - Connecting to svlngen4-c04-san as admin
+2025-06-10 15:06:21,562 - DEBUG - starting thread (client mode): 0x6b88d70
+2025-06-10 15:06:21,562 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:06:21,562 - DEBUG - starting thread (client mode): 0x6b7da90
+2025-06-10 15:06:21,562 - DEBUG - starting thread (client mode): 0x6b7df90
+2025-06-10 15:06:21,563 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:06:21,563 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:06:21,579 - DEBUG - starting thread (client mode): 0x6b7e350
+2025-06-10 15:06:21,579 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:06:21,643 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:06:21,643 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:06:21,644 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:06:21,644 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:06:21,646 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:06:21,646 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:06:21,660 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:06:21,660 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:06:21,704 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:06:21,704 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:06:21,704 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:06:21,704 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,704 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,704 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,704 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,704 - DEBUG - client compress: none
+2025-06-10 15:06:21,704 - DEBUG - server compress: none
+2025-06-10 15:06:21,704 - DEBUG - client lang: <none>
+2025-06-10 15:06:21,704 - DEBUG - server lang: <none>
+2025-06-10 15:06:21,704 - DEBUG - kex follows: False
+2025-06-10 15:06:21,704 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:06:21,704 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:06:21,705 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:06:21,705 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:06:21,705 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:06:21,705 - DEBUG - Compression: none
+2025-06-10 15:06:21,705 - DEBUG - === End of kex handshake ===
+2025-06-10 15:06:21,712 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:06:21,712 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:06:21,712 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:06:21,712 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,712 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,712 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,712 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,712 - DEBUG - client compress: none
+2025-06-10 15:06:21,712 - DEBUG - server compress: none
+2025-06-10 15:06:21,712 - DEBUG - client lang: <none>
+2025-06-10 15:06:21,713 - DEBUG - server lang: <none>
+2025-06-10 15:06:21,713 - DEBUG - kex follows: False
+2025-06-10 15:06:21,713 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:06:21,713 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:06:21,713 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:06:21,713 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:06:21,713 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:06:21,713 - DEBUG - Compression: none
+2025-06-10 15:06:21,713 - DEBUG - === End of kex handshake ===
+2025-06-10 15:06:21,714 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:06:21,714 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:06:21,714 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:06:21,714 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:06:21,714 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:06:21,714 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:06:21,714 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,714 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,714 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,714 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:06:21,714 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,714 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,714 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,714 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:06:21,715 - DEBUG - client compress: none
+2025-06-10 15:06:21,715 - DEBUG - client compress: none
+2025-06-10 15:06:21,715 - DEBUG - server compress: none
+2025-06-10 15:06:21,715 - DEBUG - server compress: none
+2025-06-10 15:06:21,715 - DEBUG - client lang: <none>
+2025-06-10 15:06:21,715 - DEBUG - client lang: <none>
+2025-06-10 15:06:21,715 - DEBUG - server lang: <none>
+2025-06-10 15:06:21,715 - DEBUG - server lang: <none>
+2025-06-10 15:06:21,715 - DEBUG - kex follows: False
+2025-06-10 15:06:21,715 - DEBUG - kex follows: False
+2025-06-10 15:06:21,715 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:06:21,715 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:06:21,715 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:06:21,716 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:06:21,716 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:06:21,716 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:06:21,716 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:06:21,716 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:06:21,716 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:06:21,716 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:06:21,716 - DEBUG - Compression: none
+2025-06-10 15:06:21,716 - DEBUG - Compression: none
+2025-06-10 15:06:21,716 - DEBUG - === End of kex handshake ===
+2025-06-10 15:06:21,716 - DEBUG - === End of kex handshake ===
+2025-06-10 15:06:21,769 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:06:21,771 - DEBUG - Switch to new keys ...
+2025-06-10 15:06:21,771 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:06:21,771 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:06:21,777 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:06:21,777 - DEBUG - Switch to new keys ...
+2025-06-10 15:06:21,777 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:06:21,777 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:06:21,786 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:06:21,786 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:06:21,786 - DEBUG - Switch to new keys ...
+2025-06-10 15:06:21,786 - DEBUG - Switch to new keys ...
+2025-06-10 15:06:21,787 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:06:21,787 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:06:21,787 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:06:21,787 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:06:21,902 - DEBUG - userauth is OK
+2025-06-10 15:06:21,925 - DEBUG - userauth is OK
+2025-06-10 15:06:21,933 - DEBUG - userauth is OK
+2025-06-10 15:06:21,943 - DEBUG - userauth is OK
+2025-06-10 15:06:26,677 - INFO - Authentication (password) failed.
+2025-06-10 15:06:26,678 - ERROR - SSH error when moving volume vol_move_test02
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:06:26,686 - ERROR - Failed to initiate move for volume vol_move_test02: Authentication failed.
+2025-06-10 15:06:26,698 - INFO - Authentication (password) failed.
+2025-06-10 15:06:26,699 - ERROR - SSH error when moving volume vol_move_test04
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:06:26,700 - ERROR - Failed to initiate move for volume vol_move_test04: Authentication failed.
+2025-06-10 15:06:26,707 - INFO - Authentication (password) failed.
+2025-06-10 15:06:26,707 - ERROR - SSH error when moving volume vol_move_test03
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:06:26,709 - ERROR - Failed to initiate move for volume vol_move_test03: Authentication failed.
+2025-06-10 15:06:26,716 - INFO - Authentication (password) failed.
+2025-06-10 15:06:26,717 - ERROR - SSH error when moving volume vol_move_test01
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:06:26,718 - ERROR - Failed to initiate move for volume vol_move_test01: Authentication failed.
+2025-06-10 15:06:26,778 - DEBUG - EOF in transport thread
+2025-06-10 15:06:26,800 - DEBUG - EOF in transport thread
+2025-06-10 15:06:26,808 - DEBUG - EOF in transport thread
+2025-06-10 15:06:26,818 - DEBUG - EOF in transport thread
+2025-06-10 15:06:27,512 - ERROR - ✗ Volume vol_move_test02 migration failed
+2025-06-10 15:06:27,513 - ERROR - ✗ Volume vol_move_test01 migration failed
+2025-06-10 15:06:27,513 - ERROR - ✗ Volume vol_move_test03 migration failed
+2025-06-10 15:06:27,513 - ERROR - ✗ Volume vol_move_test04 migration failed
+2025-06-10 15:06:28,516 - INFO - ======================================================================
+2025-06-10 15:06:28,516 - INFO - VOLUME MIGRATION SUMMARY
+2025-06-10 15:06:28,516 - INFO - ======================================================================
+2025-06-10 15:06:28,516 - INFO - Total volumes processed: 4
+2025-06-10 15:06:28,516 - INFO - Successfully moved: 0
+2025-06-10 15:06:28,517 - INFO - Failed to move: 4
+2025-06-10 15:06:28,517 - INFO - Failed volumes:
+2025-06-10 15:06:28,517 - INFO -   - vol_move_test02
+2025-06-10 15:06:28,517 - INFO -   - vol_move_test01
+2025-06-10 15:06:28,517 - INFO -   - vol_move_test03
+2025-06-10 15:06:28,517 - INFO -   - vol_move_test04
+2025-06-10 15:06:28,517 - INFO - Total duration: 00:00:07
+2025-06-10 15:06:28,517 - INFO - Average time per volume: 0.03 minutes
+2025-06-10 15:06:28,517 - INFO - ======================================================================
+2025-06-10 15:10:16,275 - INFO - Preparing to move 4 volumes to aggregate dAggr.txt
+2025-06-10 15:10:16,275 - INFO - Configuration:
+2025-06-10 15:10:16,275 - INFO -   - Cluster: svlngen4-c04-san
+2025-06-10 15:10:16,275 - INFO -   - Destination aggregate: dAggr.txt
+2025-06-10 15:10:16,275 - INFO -   - Max concurrent moves: 4
+2025-06-10 15:10:16,275 - INFO -   - Cutover action: retry
+2025-06-10 15:10:16,275 - INFO -   - Cutover window: 30 seconds
+2025-06-10 15:10:16,276 - INFO -   - Timeout: 86400 seconds
+2025-06-10 15:10:16,276 - INFO - Checking status of destination aggregate: dAggr.txt
+2025-06-10 15:10:16,276 - INFO - Starting migration of 4 volumes to aggregate dAggr.txt
+2025-06-10 15:10:16,276 - INFO - Starting move for volume vol_move_test01 to aggregate dAggr.txt
+2025-06-10 15:10:16,276 - INFO - Started migration for volume vol_move_test01 (1/4)
+2025-06-10 15:10:16,276 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:10:16,276 - INFO - Starting move for volume vol_move_test04 to aggregate dAggr.txt
+2025-06-10 15:10:16,276 - INFO - Started migration for volume vol_move_test04 (2/4)
+2025-06-10 15:10:16,276 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:10:16,276 - INFO - Starting move for volume vol_move_test03 to aggregate dAggr.txt
+2025-06-10 15:10:16,276 - INFO - Started migration for volume vol_move_test03 (3/4)
+2025-06-10 15:10:16,276 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:10:16,276 - INFO - Starting move for volume vol_move_test02 to aggregate dAggr.txt
+2025-06-10 15:10:16,276 - INFO - Started migration for volume vol_move_test02 (4/4)
+2025-06-10 15:10:16,276 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:10:16,346 - DEBUG - starting thread (client mode): 0x3ed8d70
+2025-06-10 15:10:16,346 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:10:16,347 - DEBUG - starting thread (client mode): 0x3ecda90
+2025-06-10 15:10:16,347 - DEBUG - starting thread (client mode): 0x3ecdf90
+2025-06-10 15:10:16,347 - DEBUG - starting thread (client mode): 0x3ece350
+2025-06-10 15:10:16,347 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:10:16,347 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:10:16,347 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.5.1
+2025-06-10 15:10:16,428 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:10:16,428 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:10:16,428 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:10:16,428 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:10:16,428 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:10:16,429 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:10:16,432 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_8.7
+2025-06-10 15:10:16,432 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-06-10 15:10:16,494 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:10:16,494 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:10:16,494 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:10:16,494 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:10:16,494 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:10:16,494 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:10:16,494 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:10:16,494 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:10:16,494 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:10:16,494 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,494 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,494 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,494 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,494 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,494 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,495 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,495 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,495 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,495 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,495 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,495 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,495 - DEBUG - client compress: none
+2025-06-10 15:10:16,495 - DEBUG - client compress: none
+2025-06-10 15:10:16,495 - DEBUG - client compress: none
+2025-06-10 15:10:16,495 - DEBUG - server compress: none
+2025-06-10 15:10:16,495 - DEBUG - server compress: none
+2025-06-10 15:10:16,495 - DEBUG - server compress: none
+2025-06-10 15:10:16,495 - DEBUG - client lang: <none>
+2025-06-10 15:10:16,495 - DEBUG - client lang: <none>
+2025-06-10 15:10:16,495 - DEBUG - client lang: <none>
+2025-06-10 15:10:16,495 - DEBUG - server lang: <none>
+2025-06-10 15:10:16,495 - DEBUG - server lang: <none>
+2025-06-10 15:10:16,495 - DEBUG - server lang: <none>
+2025-06-10 15:10:16,496 - DEBUG - kex follows: False
+2025-06-10 15:10:16,496 - DEBUG - kex follows: False
+2025-06-10 15:10:16,496 - DEBUG - kex follows: False
+2025-06-10 15:10:16,496 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:10:16,496 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:10:16,496 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:10:16,496 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:10:16,496 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:10:16,496 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:10:16,496 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:10:16,496 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:10:16,496 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:10:16,496 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:10:16,496 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:10:16,497 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:10:16,497 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:10:16,497 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:10:16,497 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:10:16,497 - DEBUG - Compression: none
+2025-06-10 15:10:16,497 - DEBUG - Compression: none
+2025-06-10 15:10:16,497 - DEBUG - Compression: none
+2025-06-10 15:10:16,497 - DEBUG - === End of kex handshake ===
+2025-06-10 15:10:16,497 - DEBUG - === End of kex handshake ===
+2025-06-10 15:10:16,497 - DEBUG - === End of kex handshake ===
+2025-06-10 15:10:16,510 - DEBUG - === Key exchange possibilities ===
+2025-06-10 15:10:16,511 - DEBUG - kex algos: diffie-hellman-group-exchange-sha256, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, curve25519-sha256@libssh.org
+2025-06-10 15:10:16,511 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2025-06-10 15:10:16,511 - DEBUG - client encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,511 - DEBUG - server encrypt: aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-06-10 15:10:16,511 - DEBUG - client mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,511 - DEBUG - server mac: hmac-sha2-256, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-512-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, umac-64-etm@openssh.com, umac-128-etm@openssh.com
+2025-06-10 15:10:16,511 - DEBUG - client compress: none
+2025-06-10 15:10:16,511 - DEBUG - server compress: none
+2025-06-10 15:10:16,511 - DEBUG - client lang: <none>
+2025-06-10 15:10:16,511 - DEBUG - server lang: <none>
+2025-06-10 15:10:16,511 - DEBUG - kex follows: False
+2025-06-10 15:10:16,511 - DEBUG - === Key exchange agreements ===
+2025-06-10 15:10:16,511 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-06-10 15:10:16,511 - DEBUG - HostKey: ssh-ed25519
+2025-06-10 15:10:16,511 - DEBUG - Cipher: aes128-ctr
+2025-06-10 15:10:16,511 - DEBUG - MAC: hmac-sha2-256
+2025-06-10 15:10:16,512 - DEBUG - Compression: none
+2025-06-10 15:10:16,512 - DEBUG - === End of kex handshake ===
+2025-06-10 15:10:16,574 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:10:16,574 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:10:16,576 - DEBUG - Switch to new keys ...
+2025-06-10 15:10:16,576 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:10:16,576 - DEBUG - Switch to new keys ...
+2025-06-10 15:10:16,576 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:10:16,577 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:10:16,577 - DEBUG - Switch to new keys ...
+2025-06-10 15:10:16,577 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:10:16,577 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:10:16,578 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:10:16,578 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:10:16,583 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-06-10 15:10:16,583 - DEBUG - Switch to new keys ...
+2025-06-10 15:10:16,583 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+2025-06-10 15:10:16,583 - DEBUG - Adding ssh-ed25519 host key for svlngen4-c04-san: b'a01017ad64e54c0e7ee3fc0269c85470'
+2025-06-10 15:10:16,739 - DEBUG - userauth is OK
+2025-06-10 15:10:16,739 - DEBUG - userauth is OK
+2025-06-10 15:10:16,740 - DEBUG - userauth is OK
+2025-06-10 15:10:16,771 - DEBUG - userauth is OK
+2025-06-10 15:10:24,852 - INFO - Authentication (password) failed.
+2025-06-10 15:10:24,853 - ERROR - SSH error when moving volume vol_move_test04
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:10:24,860 - INFO - Authentication (password) failed.
+2025-06-10 15:10:24,862 - INFO - Authentication (password) failed.
+2025-06-10 15:10:24,863 - ERROR - SSH error when moving volume vol_move_test01
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:10:24,863 - ERROR - Failed to initiate move for volume vol_move_test04: Authentication failed.
+2025-06-10 15:10:24,863 - ERROR - SSH error when moving volume vol_move_test02
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:10:24,865 - ERROR - Failed to initiate move for volume vol_move_test01: Authentication failed.
+2025-06-10 15:10:24,866 - ERROR - Failed to initiate move for volume vol_move_test02: Authentication failed.
+2025-06-10 15:10:24,893 - INFO - Authentication (password) failed.
+2025-06-10 15:10:24,893 - ERROR - SSH error when moving volume vol_move_test03
+Traceback (most recent call last):
+  File "/Users/jehertzi/Documents/apps/netapp-vol-moves/main.py", line 177, in initiate_volume_move_cli
+    client.connect(
+    ~~~~~~~~~~~~~~^
+        hostname=self.cluster,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        look_for_keys=False
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 485, in connect
+    self._auth(
+    ~~~~~~~~~~^
+        username,
+        ^^^^^^^^^
+    ...<9 lines>...
+        passphrase,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 818, in _auth
+    raise saved_exception
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/client.py", line 805, in _auth
+    self._transport.auth_password(username, password)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/transport.py", line 1638, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/jehertzi/.local/share/virtualenvs/netapp-vol-moves-tgz-EyIS/lib/python3.13/site-packages/paramiko/auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+2025-06-10 15:10:24,895 - ERROR - Failed to initiate move for volume vol_move_test03: Authentication failed.
+2025-06-10 15:10:24,954 - DEBUG - EOF in transport thread
+2025-06-10 15:10:24,964 - DEBUG - EOF in transport thread
+2025-06-10 15:10:24,964 - DEBUG - EOF in transport thread
+2025-06-10 15:10:24,994 - DEBUG - EOF in transport thread
+2025-06-10 15:10:25,302 - ERROR - ✗ Volume vol_move_test01 migration failed
+2025-06-10 15:10:25,303 - ERROR - ✗ Volume vol_move_test04 migration failed
+2025-06-10 15:10:25,303 - ERROR - ✗ Volume vol_move_test03 migration failed
+2025-06-10 15:10:25,303 - ERROR - ✗ Volume vol_move_test02 migration failed
+2025-06-10 15:10:26,307 - INFO - ======================================================================
+2025-06-10 15:10:26,307 - INFO - VOLUME MIGRATION SUMMARY
+2025-06-10 15:10:26,307 - INFO - ======================================================================
+2025-06-10 15:10:26,307 - INFO - Total volumes processed: 4
+2025-06-10 15:10:26,307 - INFO - Successfully moved: 0
+2025-06-10 15:10:26,307 - INFO - Failed to move: 4
+2025-06-10 15:10:26,308 - INFO - Failed volumes:
+2025-06-10 15:10:26,308 - INFO -   - vol_move_test01
+2025-06-10 15:10:26,308 - INFO -   - vol_move_test04
+2025-06-10 15:10:26,308 - INFO -   - vol_move_test03
+2025-06-10 15:10:26,308 - INFO -   - vol_move_test02
+2025-06-10 15:10:26,308 - INFO - Total duration: 00:00:10
+2025-06-10 15:10:26,308 - INFO - Average time per volume: 0.04 minutes
+2025-06-10 15:10:26,308 - INFO - ======================================================================
+2025-06-10 15:18:05,881 - INFO - Preparing to move 4 volumes to aggregate dAggr.txt
+2025-06-10 15:18:05,881 - INFO - Configuration:
+2025-06-10 15:18:05,881 - INFO -   - Cluster: svlngen4-c04-san
+2025-06-10 15:18:05,881 - INFO -   - Destination aggregate: dAggr.txt
+2025-06-10 15:18:05,881 - INFO -   - Max concurrent moves: 4
+2025-06-10 15:18:05,881 - INFO -   - Cutover action: retry
+2025-06-10 15:18:05,881 - INFO -   - Cutover window: 30 seconds
+2025-06-10 15:18:05,881 - INFO -   - Timeout: 86400 seconds
+2025-06-10 15:18:05,881 - INFO - Checking status of destination aggregate: dAggr.txt
+2025-06-10 15:18:05,881 - INFO - Starting migration of 4 volumes to aggregate dAggr.txt
+2025-06-10 15:18:05,881 - INFO - Starting move for volume vol_move_test04 to aggregate dAggr.txt
+2025-06-10 15:18:05,881 - INFO - Started migration for volume vol_move_test04 (1/4)
+2025-06-10 15:18:05,882 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:18:05,882 - INFO - Starting move for volume vol_move_test01 to aggregate dAggr.txt
+2025-06-10 15:18:05,882 - INFO - Started migration for volume vol_move_test01 (2/4)
+2025-06-10 15:18:05,882 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:18:05,882 - INFO - Starting move for volume vol_move_test03 to aggregate dAggr.txt
+2025-06-10 15:18:05,884 - INFO - Started migration for volume vol_move_test03 (3/4)
+2025-06-10 15:18:05,884 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:18:05,886 - INFO - Starting move for volume vol_move_test02 to aggregate dAggr.txt
+2025-06-10 15:18:05,886 - INFO - Started migration for volume vol_move_test02 (4/4)
+2025-06-10 15:18:05,886 - INFO - Connecting to svlngen4-c04-san as storage.gen
+2025-06-10 15:18:11,166 - ERROR - Command failed with exit code 5
+2025-06-10 15:18:11,168 - ERROR - Error output: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-06-10 15:18:11,168 - ERROR - Failed to initiate move for volume vol_move_test02: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-06-10 15:18:11,198 - ERROR - Command failed with exit code 5
+2025-06-10 15:18:11,198 - ERROR - Error output: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-06-10 15:18:11,199 - ERROR - Failed to initiate move for volume vol_move_test04: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-06-10 15:18:11,214 - ERROR - Command failed with exit code 5
+2025-06-10 15:18:11,214 - ERROR - Error output: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-06-10 15:18:11,214 - ERROR - Failed to initiate move for volume vol_move_test03: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+
+2025-06-10 15:18:11,911 - ERROR - ✗ Volume vol_move_test04 migration failed
+2025-06-10 15:18:11,912 - ERROR - ✗ Volume vol_move_test03 migration failed
+2025-06-10 15:18:11,913 - ERROR - ✗ Volume vol_move_test02 migration failed
+2025-06-10 15:18:19,653 - ERROR - Command failed with exit code 255
+2025-06-10 15:18:19,653 - ERROR - Error output: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+Received disconnect from 10.198.1.86 port 22:2: Too many authentication failures
+Disconnected from 10.198.1.86 port 22
+
+2025-06-10 15:18:19,653 - ERROR - Failed to initiate move for volume vol_move_test01: Warning: Permanently added 'svlngen4-c04-san' (ED25519) to the list of known hosts.
+Received disconnect from 10.198.1.86 port 22:2: Too many authentication failures
+Disconnected from 10.198.1.86 port 22
+
+2025-06-10 15:18:19,943 - ERROR - ✗ Volume vol_move_test01 migration failed
+2025-06-10 15:18:20,949 - INFO - ======================================================================
+2025-06-10 15:18:20,949 - INFO - VOLUME MIGRATION SUMMARY
+2025-06-10 15:18:20,950 - INFO - ======================================================================
+2025-06-10 15:18:20,950 - INFO - Total volumes processed: 4
+2025-06-10 15:18:20,950 - INFO - Successfully moved: 0
+2025-06-10 15:18:20,951 - INFO - Failed to move: 4
+2025-06-10 15:18:20,951 - INFO - Failed volumes:
+2025-06-10 15:18:20,951 - INFO -   - vol_move_test04
+2025-06-10 15:18:20,951 - INFO -   - vol_move_test03
+2025-06-10 15:18:20,951 - INFO -   - vol_move_test02
+2025-06-10 15:18:20,951 - INFO -   - vol_move_test01
+2025-06-10 15:18:20,952 - INFO - Total duration: 00:00:15
+2025-06-10 15:18:20,952 - INFO - Average time per volume: 0.06 minutes
+2025-06-10 15:18:20,952 - INFO - ======================================================================
